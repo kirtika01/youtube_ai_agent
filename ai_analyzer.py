@@ -1,6 +1,8 @@
 import google.generativeai as genai
-from config import GOOGLE_API_KEY
+# from config import GOOGLE_API_KEY
+import streamlit as st
 
+GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
 
 class AIAnalyzer:
     def __init__(self):
