@@ -1,0 +1,8 @@
+
+.env
+
+*.conda
+
+__pycache__/
+
+temp_audio/
